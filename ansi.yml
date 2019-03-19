@@ -1,0 +1,7 @@
+---
+- hosts: 10.42.0.42
+  tasks:
+      - name: Create file
+        file:
+            path: /tmp/piku
+            state: touch
